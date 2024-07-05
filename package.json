@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "npm run prettier && echo ************ && tsc",
+    "build": "npm run prettier && echo ************\n\n && tsc",
     "lint": "eslint .",
     "prettier": "prettier --write ."
   },
